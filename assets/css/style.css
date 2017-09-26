@@ -1,0 +1,87 @@
+body:before {
+  background: url('../images/cle.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block; 
+  content:""; 
+  position: absolute; 
+  z-index:-1;
+  top:0; 
+  left: 0; 
+  right: 0; 
+  height: 100%;
+  opacity:.7;
+}
+.counter-container {
+  padding-top: 30px;
+  z-index: 9999999;
+}
+.images {
+  padding-left: 55px;
+}
+.wins {
+  text-align: center;
+}
+.losses {
+  text-align: center;
+}
+.copyright {
+  text-align: center;
+}
+.wins-counter { 
+  text-align: center;
+}
+.losses-counter {
+  text-align: center;
+}
+.player {
+  height: 120px;
+  width: 120px;
+}
+.randomNumber {
+  text-align: center;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 70px;
+  background-color: #870038;
+  color: #fff;
+}
+.counter-counter {
+  text-align: center;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 70px;
+  background-color: #000A3F;
+  color: #fff;
+}
+.card {
+  background-color: #FDAE1D;
+}
+.total {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 70px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
