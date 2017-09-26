@@ -13,7 +13,7 @@
   </head>
   <body>
 
-    <header class="navbar navbar-light bg-light justify-content-center">Cleveland Game</header>
+    <header class="navbar navbar-light bg-light justify-content-center"><h1>Cleveland Game</h1></header>
 
 
     <!--- random number -->
@@ -22,7 +22,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            
+            <audio id="audio" src="assets/sound/scott.mp3"></audio>
+    <button class="btn btn-info" onClick="document.getElementById('audio').play()">sound on</button>
+    <button class="btn btn-info" onClick="document.getElementById('audio').pause()">sound off</button>
           </div>
           <div class="col-sm-6">
             <div class="randomNumber jumbotron">
