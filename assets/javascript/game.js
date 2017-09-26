@@ -44,6 +44,10 @@ function lose() {
   reset();
 }
 
+$(".instructions").on('click', function() {
+  $(".instructions").html('james')
+});
+
    
   
  

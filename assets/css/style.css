@@ -65,6 +65,9 @@ body:before {
   font-size: 70px;
   color: #fff;
 }
+a:not([href]):not([tabindex]), p {
+  color: black;
+}
 
 
 
